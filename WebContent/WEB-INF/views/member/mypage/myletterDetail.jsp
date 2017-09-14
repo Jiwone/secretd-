@@ -30,7 +30,7 @@
 		<!-- 메인부분 -->
 	<main id="main">
 	
-	<h2 class = "main title">1:1문의 현황</h2>
+	<h2 class = "main title">1:1 문의 현황 :</h2>
 	
 	<form id = "LetterDetailForm" >
 		<table class="table table-hot">
