@@ -2,26 +2,24 @@ package com.secretd.web.entity;
 
 import java.util.Date;
 
-public class Letter {
+public class Answer {
 	private int number;
-	private String title;
 	private Date date;
-	private String id;
-	private String chk;
+	private String managerid;
 	private String content;
+	private int letternumber;
 	
-	public Letter() {
+	public Answer() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Letter(int number, String title, Date date, String id, String chk, String content) {
+	public Answer(int number, Date date, String managerid, String content, int letternumber) {
 		super();
 		this.number = number;
-		this.title = title;
 		this.date = date;
-		this.id = id;
-		this.chk = chk;
+		this.managerid = managerid;
 		this.content = content;
+		this.letternumber = letternumber;
 	}
 
 	public int getNumber() {
@@ -32,14 +30,6 @@ public class Letter {
 		this.number = number;
 	}
 
-	public String getTitle() {
-		return title;
-	}
-
-	public void setTitle(String title) {
-		this.title = title;
-	}
-
 	public Date getDate() {
 		return date;
 	}
@@ -48,20 +38,12 @@ public class Letter {
 		this.date = date;
 	}
 
-	public String getId() {
-		return id;
+	public String getManagerid() {
+		return managerid;
 	}
 
-	public void setId(String id) {
-		this.id = id;
-	}
-
-	public String getChk() {
-		return chk;
-	}
-
-	public void setChk(String chk) {
-		this.chk = chk;
+	public void setManagerid(String managerid) {
+		this.managerid = managerid;
 	}
 
 	public String getContent() {
@@ -71,8 +53,15 @@ public class Letter {
 	public void setContent(String content) {
 		this.content = content;
 	}
-	
-	
+
+	public int getLetternumber() {
+		return letternumber;
+	}
+
+	public void setLetternumber(int letternumber) {
+		this.letternumber = letternumber;
+	}
+
 	
 	
 	
